@@ -1,0 +1,108 @@
+* {
+
+    background-color: rgb(177, 163, 86);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.topheading {
+
+    color: black;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: Impact, 'Gill sans', sans-serif; 
+    text-align: center;
+
+}
+
+
+#special {
+
+    color: rgb(240, 99, 43);
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Palatino's, 'Gill sans', sans-serif; 
+    text-align: left;
+    font-style: italic;   
+    margin-left: 1.5%;
+
+}
+
+
+#intro {
+
+    text-align: center;
+    font-family: Impact, 'Gill sasns', sans-serif; 
+    font-style: oblique;
+    padding: 0px;
+}
+
+
+img.lasagna {
+
+    display:block;
+    margin: auto;
+    transform-style: flat;
+    border-radius: 2%;
+    border-style: groove;
+    border-color: rgba(243, 150, 11, 0.918);
+}
+
+.subheading {
+
+    text-align: left;
+    font-family: Impact, 'Gill sasns', sans-serif; 
+    margin-left: 27%;
+
+}
+
+#ingredients {
+
+    text-align: center;
+    font-family: Impact, 'Gill sasns', sans-serif;
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+
+#description {
+
+    text-align: left;
+    font-family: Impact, 'Gill sasns', sans-serif;  
+    margin-left: 22.4%;
+}
+
+
+.subsubheading {
+
+    text-align: center;
+    font-family: Impact, 'Gill sasns', sans-serif; 
+    font-style: oblique;
+    font-size: 25px;
+    color: rgb(240, 99, 43);
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+
+    width: 50%;
+    padding: 5px;
+    border: 1px solid rgb(240, 99, 43);
+    box-sizing: border-box;
+    margin: 10px;
+    
+}
+
+.ulist {
+
+    text-align: left;
+    font-family: Impact, 'Gill sasns', sans-serif; 
+}
+
+
