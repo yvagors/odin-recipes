@@ -3,64 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lasagna Recipe</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 50px;
-            background-color: #f8f8f8;
-            margin-bottom: 50px; 
-        }
-
-        h1, h2, h3 {
-            color: #333;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px 0;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        ol {
-            padding-left: 20px;
-        }
-
-        p, li {
-            color: #555;
-        }
-    </style>
+    <title>The legendary Lasagna Recipe</title>
+    <link rel="stylesheet" href="lasagna.css">
 </head>
 <body>
 
+<section class="intro">
 
-   <h1>Lasagna</h1> 
+   <h1 class="topheading">THE <span id="special">Lasagna</h1> 
 
-   <img src="https://static01.nyt.com/images/2023/08/31/multimedia/RS-Lasagna-hkjl/RS-Lasagna-hkjl-master768.jpg?w=1024&q=75" alt="Tasty Lasagna" width="400" height="250">
+<div id="intro">
+
+   <p>Have you ever wondered what the best lasagna in the world tastes like? </p>
+   <p>Make no mistake, you have come to the right place.</p>
+   <p>Just take a glance below to see the marvel you are about to prepare.</p>
+
+</div>
+
+   <img class="lasagna" src="https://static01.nyt.com/images/2023/08/31/multimedia/RS-Lasagna-hkjl/RS-Lasagna-hkjl-master768.jpg?w=1024&q=75" alt="Tasty Lasagna" width="700" height="550">
 
 
-    <h2>Description</h2>
+    <h2 class="subheading">Description</h2>
 
-    <p>To prepare lasagna from scratch, you start by making sauce, then layer it with wide, flat lasagna noodles and cheese before baking. The sauces can vary from tomato-based sauce, with or without meat, to creamy bechamel sauce, which works well with a wide variety of vegetables.
+<div id="description">   
+
+    <p>To prepare lasagna from scratch, you start by making sauce, then layer it with wide, flat lasagna <br>noodles and cheese before baking. The sauces can vary from tomato-based sauce, with or without <br>meat, to creamy bechamel sauce, which works well with a wide variety of vegetables.
 
     </p>
 
-    <h2>Ingredients</h2>
+</div> 
 
-        <h4>For the sauce</h4>
+</section>
 
-            <ul>
+
+
+<section class="ingredients">
+        
+    <h1 id="ingredients">Ingredients</h2>
+
+<div class="container">
+    <div class="column">
+
+        <h4 class="subsubheading">For the sauce</h4>
+
+            <ul class="ulist">
 
             <li>1cup extra virgin olive oil</li>
             <li>2medium red onions, finely diced</li>
@@ -79,10 +65,12 @@
             <li>1pound Italian sausage, a mix of hot and sweet</li>
 
             </ul>
+        </div>
 
-        <h4>For the lasagna</h4>
+    <div class="column">   
+        <h4 class="subsubheading">For the lasagna</h4>
 
-            <ul>
+            <ul class="ulist">
                 
             <li>115-ounce container ricotta cheese</li>
             <li>2eggs</li>
@@ -92,10 +80,18 @@
             <li>16sheets fresh lasagna noodles, preferably Antica Pasteria</li>
 
             </ul>   
-            
-    <h3>Instructions</h3>
+        </div> 
 
-            <ol>
+
+</section>
+           
+            
+
+<section class="instructions">
+
+    <h2 class="subheading">Instructions</h2>
+
+            <ol class="olist">
 
     <li>For the sauce, heat ½ cup oil in a large heavy Dutch oven or kettle over low heat. Add the onions, minced garlic and pancetta, and cook, stirring, for 10 minutes, until the onions are wilted. Season liberally with salt and pepper. Raise heat slightly, add the wine and cook until it is mostly reduced, about 20 minutes. Crush the tomatoes into the pan, and add their juice. Add the tomato paste and 2 cups lukewarm water. Simmer for 1 hour.</li>
     <li>Combine the sirloin, cheese and eggs in a large bowl. Chop the parsley with the whole garlic until fine, then stir into the beef mixture. Season lavishly with salt and pepper. Using your hands, mix until all the ingredients are well blended. Shape into meatballs and set aside.</li>
@@ -106,6 +102,9 @@
        
     
             </ol>
+
+
+</section>       
 
 </body>
 </html>
