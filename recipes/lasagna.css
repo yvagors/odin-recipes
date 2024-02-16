@@ -1,8 +1,9 @@
 * {
 
     background-color: rgb(177, 163, 86);
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+
 }
 
 .topheading {
@@ -34,7 +35,7 @@
     text-align: center;
     font-family: Impact, 'Gill sasns', sans-serif; 
     font-style: oblique;
-    padding: 0px;
+    padding-bottom: 1%;
 }
 
 
@@ -52,7 +53,7 @@ img.lasagna {
 
     text-align: left;
     font-family: Impact, 'Gill sasns', sans-serif; 
-    margin-left: 27%;
+    margin-left: 27.5%;
 
 }
 
@@ -60,7 +61,7 @@ img.lasagna {
 
     text-align: center;
     font-family: Impact, 'Gill sasns', sans-serif;
-    padding-top: 5%;
+    padding-top: 3.5%;
     font-size: 30px;
 }
 
@@ -86,16 +87,19 @@ img.lasagna {
 .container {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
 }
 
 .column {
 
-    width: 50%;
-    padding: 5px;
-    border: 1px solid rgb(240, 99, 43);
+    width: 35%;
+    border: 2px solid rgb(240, 99, 43);
+    border-style: groove;
+    border-radius: 2%;
     box-sizing: border-box;
-    margin: 10px;
+    
     
 }
 
@@ -103,6 +107,15 @@ img.lasagna {
 
     text-align: left;
     font-family: Impact, 'Gill sasns', sans-serif; 
+    margin-left: 15%;
+
+}
+
+.scroll {
+
+    margin-bottom: 30%;
+
+
 }
 
 
